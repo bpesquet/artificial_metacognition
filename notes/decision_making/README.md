@@ -4,7 +4,7 @@
 
 ### Decision and decision-making
 
-A **decision** is "a deliberative process that results in the commitment to a categorical proposition." {cite}`goldNeuralBasisDecision2007`
+A **decision** is "a deliberative process that results in the commitment to a categorical proposition." [[Gold and Shadlen, 2007]](../../references/neuroscience/Gold2007.md)
 
 People make thousands of (big and small) decisions everyday. A few examples:
 
@@ -26,7 +26,7 @@ Even if all informative data is immediately available (example: a chess position
 
 **Decision-making** can be formalized as the mapping from a stimulus to a response.
 
-Time between stimulus and response execution is called **Reaction Time** or **Response Time** (RT) {cite}`forstmannSequentialSamplingModels2016`, {cite}`myersPracticalIntroductionUsing2022`.
+Time between stimulus and response execution is called **Reaction Time** or **Response Time** (RT) [[Forstmann et al., 2016]](../../references/decision-making/Forstmann2016.md), [[Myers et al., 2022]](../../references/decision-making/Myers2022.md).
 
 $$RT = T_e+T_d+T_r$$
 
@@ -36,11 +36,11 @@ $T_{er}= T_e+T_r$ is called **non-decision time**.
 
 ### Speed/accuracy tradeoff
 
-All decisions are made under time pressure {cite}`forstmannSequentialSamplingModels2016`. The balance between response time and accuracy is called the **speed/accuracy trade-off**.
+All decisions are made under time pressure [[Forstmann et al., 2016]](../../references/decision-making/Forstmann2016.md). The balance between response time and accuracy is called the **speed/accuracy trade-off**.
 
-It is at least partially under conscious control: decision-makers can decide to make faster decisions at the expense of an higher error rate, or slower, more accurate decisions {cite}`ratcliffDiffusionDecisionModel2016`. This complicates the interpretation of behavioral data.
+It is at least partially under conscious control: decision-makers can decide to make faster decisions at the expense of an higher error rate, or slower, more accurate decisions [[Ratcliff et al., 2016]](../../references/decision-making/Ratcliff2016.md). This complicates the interpretation of behavioral data.
 
-Ideally, what is needed is a way to evaluate data that considers not only accuracy and speed, but the interaction between them {cite}`myersPracticalIntroductionUsing2022`.
+Ideally, what is needed is a way to evaluate data that considers not only accuracy and speed, but the interaction between them [[Myers et al., 2022]](../../references/decision-making/Myers2022.md).
 
 ## Modeling speeded decision-making
 
@@ -71,7 +71,7 @@ Historically, most research on the dynamics of decision-making has been focused 
 
 ![Cognitive processes of decision-making](images/decision-making_processes.png)
 
-{cite}`bogaczOptimalDecisionmakingTheories2007`
+[[Bogacz, 2007]](../../references/decision-making/Bogacz2007.md)
 
 ### Sequential sampling
 
@@ -129,7 +129,7 @@ $$DV_n = \sum_{i=1}^n log_e \frac{P(e_i|h_1)}{P(e_i|h_2)} = \sum_{i=1}^n w_i$$
 
 The DV is updated with new pieces of evidence until reaching a criterion.
 
-SPRT is the most efficient statistical test for deciding between two hypotheses on this kind of problem: it achieves a desired error rate with the smallest number of samples, on average {cite}`waldOptimumCharacterSequential1948`.
+SPRT is the most efficient statistical test for deciding between two hypotheses on this kind of problem: it achieves a desired error rate with the smallest number of samples, on average [[Wald and Wolfowitz, 1948]](../../references/statistics/Wald1948.md).
 
 #### Problem example: trick or fair coin
 
@@ -149,7 +149,7 @@ For $\alpha=0.05$, a decision happens when $|DV_n| \ge \log_e(19)$.
 
 ### Diffusion models
 
-When the evidence is continously sampled from a distribution in infinitesimal time steps, the process is termed **diffusion** with drift $v$. When $v$ is constant, this process is known as [Brownian motion](https://en.wikipedia.org/wiki/Brownian_motion) or Wiener diffusion process {cite}`goldNeuralBasisDecision2007`.
+When the evidence is continously sampled from a distribution in infinitesimal time steps, the process is termed **diffusion** with drift $v$. When $v$ is constant, this process is known as [Brownian motion](https://en.wikipedia.org/wiki/Brownian_motion) or Wiener diffusion process [[Gold and Shadlen, 2007]](../../references/neuroscience/Gold2007.md).
 
 ![Diffusion model](images/diffusion_model.png)
 
@@ -157,9 +157,9 @@ When the evidence is continously sampled from a distribution in infinitesimal ti
 
 #### The Diffusion Decision Model
 
-This model, also called **Drift Diffusion Model (DDM)**, is a sequential sampling model for binary choices in continuous environments {cite}`ratcliffDiffusionDecisionModel2008`.
+This model, also called **Drift Diffusion Model (DDM)**, is a sequential sampling model for binary choices in continuous environments [[Ratcliff and McKoon, 2008]](../../references/decision-making/Ratcliff2008.md).
 
-Originally designed in the 1970's {cite}`ratcliff1978theory`, it has recently experienced a surge in popularity. A growing body of literature is using the DDM to elucidate the cognitive processes of decision-making.
+Originally designed in the 1970's [[Ratcliff, 1978]](../../references/decision-making/Ratcliff1978.md), it has recently experienced a surge in popularity. A growing body of literature is using the DDM to elucidate the cognitive processes of decision-making.
 
 ##### Parameters
 
@@ -202,7 +202,7 @@ $$dx = vdt + sW$$
 
 ###### Low-level neuroscience
 
-Studies {cite}`Gold2001-xr` uses DDM as inspiration to interpret neuron firing rates in monkeys as evidence accumulation until a threshold is reached.
+Studies [[Gold and Shadlen, 2001]](../../references/neuroscience/Gold2001.md) uses DDM as inspiration to interpret neuron firing rates in monkeys as evidence accumulation until a threshold is reached.
 
 ![Firing rate in monkeys](images/ddm_firing_rate.png)
 
@@ -222,11 +222,11 @@ Collapsing-bound models translate the fact that in some cases, decisions are bas
 
 #### The Leaky Competing Accumulator model
 
-This model {cite}`Usher2001-di` is based on gradual and stochastic accumulation of information in non-linear decision units with **leakage** (or decay of activation) and competition through **lateral inhibition**.
+This model [[Usher and McClelland, 2001]](../../references/decision-making/Usher2001.md) is based on gradual and stochastic accumulation of information in non-linear decision units with **leakage** (or decay of activation) and competition through **lateral inhibition**.
 
 ### Relationships between models
 
-Cortical models ({cite}`Shadlen2001-lo`, {cite}`Usher2001-di`, {cite}`Wang2002-vn`) can be reduced to the diffusion model for parameter values that optimize their performance {cite}`bogaczOptimalDecisionmakingTheories2007`.
+Cortical models ([[Shadlen and Newsome, 2001]](../../references/neuroscience/Shadlen2001.md), [[Usher and McClelland, 2001]](../../references/decision-making/Usher2001.md), [[Wang, 2002]](../../references/neuroscience/Wang2002.md)) can be reduced to the diffusion model for parameter values that optimize their performance [[Bogacz, 2007]](../../references/decision-making/Bogacz2007.md).
 
 ![DDM & cortical models](images/ddm_cortical_models.png)
 
@@ -234,7 +234,7 @@ Cortical models ({cite}`Shadlen2001-lo`, {cite}`Usher2001-di`, {cite}`Wang2002-v
 
 #### Multihypothesis Sequential Probability Ratio Test
 
-- Extension of SPRT to ternary choices in which the rate of integration depends on the fixation of the visual stimulus, as measured through eye-tracking {cite}`krajbichMultialternativeDriftdiffusionModel2011`.
+- Extension of SPRT to ternary choices in which the rate of integration depends on the fixation of the visual stimulus, as measured through eye-tracking [[Krajbich and Rangel, 2011]](../../references/decision-making/Krajbich2011.md).
 - A DV is computed for each item based on the evidence accumulated for that item compared with the highest accumulated evidence for the other items (*best-vs-next* approach).
 
 ![MSPRT](images/msprt.png)
@@ -246,7 +246,7 @@ Cortical models ({cite}`Shadlen2001-lo`, {cite}`Usher2001-di`, {cite}`Wang2002-v
 
 #### The Advantage Linear Ballistic Accumulator model
 
-In this model {cite}`vanravenzwaaijAccumulatingAdvantagesNew2020`, each of the $n$ possible choices is associated to $n-1$ accumulators, each of them driven by the difference ("advantage") in evidence versus another response.
+In this model [[Van Ravenzwaaij et al., 2020]](../../references/decision-making/VanRavenzwaaij2020.md), each of the $n$ possible choices is associated to $n-1$ accumulators, each of them driven by the difference ("advantage") in evidence versus another response.
 
 ##### ALBA model for binary choice
 
@@ -279,7 +279,7 @@ $$v_{2-1} = v_0 + w_d(S_2 - S_1) + w_s(S_1 + S_2)$$
 
 - **Evidence accumulation models** like the DDM are typically applied to tasks that minimize the influence of learning. Very few attempts have been made to adapt these models to situations in which decisions are followed by **rewards**, thereby producing **learning effects**.
 
-- Recent efforts are trying to combine [Reinforcement Learning](../ml/rl.ipynb) and EAM into joint models that should be able to:
+- Recent efforts are trying to combine [Reinforcement Learning](https://github.com/bpesquet/mlcourse/blob/main/notes/rl_introduction/README.md) and EAM into joint models that should be able to:
   - predict choices and RT;
   - describe how learning affects the decision process.
 
@@ -305,7 +305,7 @@ The difference $r_t - Q_{i,t}$ between actual reward and value representation is
 
 ### The RL-DDM model
 
-This model {cite}`fontanesiReinforcementLearningDiffusion2019` assumes that the drift rate depends linearly on the difference of value representations between the two possible choices.
+This model [[Fontanesi et al., 2019]](../../references/decision-making/Fontanesi2019.md) assumes that the drift rate depends linearly on the difference of value representations between the two possible choices.
 
 $$v_t = w(Q_{1,t}-Q_{2,t})$$
 
@@ -327,7 +327,7 @@ $$dx_i = (V_0 + wQ_i)dt +sW$$
 
 ### The RL-Advantage Racing Diffusion model
 
-This model {cite}`mileticNewModelDecision2021` uses an ALBA architecture {cite}`vanravenzwaaijAccumulatingAdvantagesNew2020` as its decision component.
+This model [[Miletić et al., 2021]](../../references/decision-making/Miletic2021.md) uses an ALBA architecture [[Van Ravenzwaaij et al., 2020]](../../references/decision-making/VanRavenzwaaij2020.md) as its decision component.
 
 $$dx_1 = \big(V_0 + w_d(Q_1 - Q_2) + w_s(Q_1 + Q_2)\big)dt + sW$$
 
@@ -342,7 +342,3 @@ $$dx_2 = \big(V_0 + w_d(Q_2 - Q_1) + w_s(Q_1 + Q_2)\big)dt + sW$$
 Its ALBA decision model extends naturally to multi-alternative choice tasks.
 
 ![Multi RL-ARD](images/rl-ard_multi.png)
-
-```python
-
-```

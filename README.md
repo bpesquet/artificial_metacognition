@@ -18,7 +18,7 @@ Thie repository contains resources related to my research in artificial metacogn
 #### Presentations
 
 - [Modéliser la confiance d'un agent décisionnel](publications/presentations/PFIA2024Pesquet.pdf) ([PFIA 2024](https://pfia2024.univ-lr.fr/))
-- [Towards confident AI](publications/presentations/UBWorkshop_june2024.pdf) (AI PhD students workshop @ Université de Bordeaux, 2024)
+- [Towards confident AI](publications/presentations/UBWorkshop_june2024.pdf) ([AI PhD students workshop @ Université de Bordeaux, 2024](https://sin.u-bordeaux.fr/actualites/journee-des-doctorants-en-intelligence-artificielle))
 - [Rendre l'IA confiante, pour mieux lui faire confiance](publications/presentations/PoS2024Pesquet.pdf) ([Pint of Science 2024](https://pintofscience.fr/))
 
 ### References
@@ -26,6 +26,7 @@ Thie repository contains resources related to my research in artificial metacogn
 - [Confidence](references/confidence//)
 - [Decision-making](references/decision-making/)
 - [Metacognition](references/metacognition/)
+- [Neuroscience](references/neuroscience/)
 - [Statistics](references/statistics/)
 
 ## License
