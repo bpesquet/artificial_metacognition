@@ -13,7 +13,7 @@ Thie repository contains resources related to my research in artificial metacogn
 
 #### Conference papers
 
-- Baptiste Pesquet and Frédéric Alexandre, [Modéliser la confiance d'un agent décisionnel](publications/papers/Pesquet2024.pdf) ([PFIA 2024](https://pfia2024.univ-lr.fr/))
+- [Modéliser la confiance d'un agent décisionnel](publications/papers/Pesquet2024.pdf) ([PFIA 2024](https://pfia2024.univ-lr.fr/))
 
 #### Presentations
 
