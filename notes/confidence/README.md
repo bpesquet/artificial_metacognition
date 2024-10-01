@@ -6,7 +6,7 @@
 
 Everyone knows intuitively what confidence is about, yet it is seldom defined explicitely.
 
-In the broadest sense, **confidence quantifies a degree of belief in something or someone** {cite}`meynielConfidenceBayesianProbability2015`.
+In the broadest sense, **confidence quantifies a degree of belief in something or someone** [[Meyniel et al., 2015]](../../references/README.md#meyniel-et-al-2015).
 
 It is fundamentally linked to its object: a thought, a choice, an external actor, etc.
 
@@ -14,7 +14,7 @@ It is fundamentally linked to its object: a thought, a choice, an external actor
 
 A belief is **a feeling of certainty about a proposition** (i.e. a statement or a decision). It is a subjective, conscious experience.
 
-Note: regarding perceptions, our belief usually matches our perceptual experience, but not always {cite}`mamassianConfidenceForcedChoiceOther2020`.
+Note: regarding perceptions, our belief usually matches our perceptual experience, but not always [[Mamassian, 2020]](../../references/README.md#mamassian-2020).
 
 ![Belief-perception gap](images/belief_perception_gap.png)
 
@@ -22,15 +22,15 @@ Note: regarding perceptions, our belief usually matches our perceptual experienc
 
 Generally speaking, uncertainty (or incertitude) characterizes situations involving **imperfect, noisy or unknown information**.
 
-In decision-making, uncertainty refers to **the variability in the representation of information before a decision is taken** {cite}`mamassianConfidenceForcedChoiceOther2020`.
+In decision-making, uncertainty refers to **the variability in the representation of information before a decision is taken** [[Mamassian, 2021]](../../references/README.md#mamassian-2020).
 
 To perform well, the brain needs to be effective at dealing with many uncertainties, some of them external (changes in world state or sensorimotor variability), others internal (cognitive variables, timing or abstract states). Uncertainty is inherent to all stages of neural computation.
 
 ### Confidence: updated definition
 
-In decision-making, confidence can be seen as **the subjective estimate of decision quality** {cite}`brusSourcesConfidenceValuebased2021`.
+In decision-making, confidence can be seen as **the subjective estimate of decision quality** [[Brus et al., 2021]](../../references/README.md#brus-et-al-2021).
 
-More formally, it can be defined as **the probability that a choice is correct given the evidence** {cite}`pougetConfidenceCertaintyDistinct2016`.
+More formally, it can be defined as **the probability that a choice is correct given the evidence** [[Pouget et al., 2016]](../../references/README.md#pouget-et-al-2016).
 
 Confidence is a form of certainty. A key difference is that contrary to confidence, (un)certainties are *decision independant*. **Confidence quantifies the degree of certainty associated to a decision**.
 
@@ -42,7 +42,7 @@ Trust is a social construct: **the belief that someone or something will behave 
 
 ### Error monitoring
 
-In decision-making, error monitoring (EM) is **the process by which one is able to detect his/her errors as soon as a response has been made** {cite}`yeungMetacognitionHumanDecisionmaking2012`.
+In decision-making, error monitoring (EM) is **the process by which one is able to detect his/her errors as soon as a response has been made** [[Yeung & Summerfield, 2012]](../../references/README.md#yeung-and-summerfield-2012).
 
 EM allows adaptation of behavior both in the short and longer terms through gradual learning of actions' outcomes.
 
@@ -50,7 +50,7 @@ EM allows adaptation of behavior both in the short and longer terms through grad
 
 Confidence judgments and error monitoring are two related aspects of metacognition (sometimes called *higher order thinking*).
 
-First described in {cite}`flavellMetacognitionCognitiveMonitoring1979`, metacognition can be defined as **the ability to consider, understand and regulate one's cognitive processes**. It is a key skill to adapt to complex problems and changing environments.
+First described in [[Flavell, 1979]](../../references/README.md#flavell-1979), metacognition can be defined as **the ability to consider, understand and regulate one's cognitive processes**. It is a key skill to adapt to complex problems and changing environments.
 
 Metacognition is classicaly divided into two subprocesses: **monitoring** and **control**.
 
@@ -60,11 +60,11 @@ Metacognition is classicaly divided into two subprocesses: **monitoring** and **
 
 ![Metaperception](images/metaperception.png)
 
-{cite}`mamassianConfidenceForcedChoiceOther2020`
+[[Mamassian, 2020]](../../references/README.md#mamassian-2020)
 
 ### Cognitive control
 
-Cognitive control refers to **the intentional selection of thoughts, emotions, and behaviors based on current task demands and social context, and the concomitant suppression of inappropriate habitual actions** {cite}`millerIntegrativeTheoryPrefrontal2001`.
+Cognitive control refers to **the intentional selection of thoughts, emotions, and behaviors based on current task demands and social context, and the concomitant suppression of inappropriate habitual actions** [[Miller and Cohen, 2001]](../../references/README.md#miller-and-cohen-2001).
 
 In simpler terms, cognitive control allows adapting our behaviour on-the-fly to improve performance.
 
@@ -72,7 +72,7 @@ In simpler terms, cognitive control allows adapting our behaviour on-the-fly to 
 
 ### Experimental tasks
 
-Their setup is similar to those used to study [decision-making](introduction.ipynb). The major difference is that before or (more frequently) after taking a decision (a *type 1* task), subjects express their confidence about it (a *type 2* task).
+Their setup is similar to those used to study [decision-making](../decision_making/README.md). The major difference is that before or (more frequently) after taking a decision (a *type 1* task), subjects express their confidence about it (a *type 2* task).
 
 Example of type 1 task: is the [Gabor patch](http://neuroanatody.com/2016/05/whats-in-a-gabor-patch/) tilted to the left or to the right?
 
@@ -82,11 +82,11 @@ Example of type 1 task: is the [Gabor patch](http://neuroanatody.com/2016/05/wha
 
 ![Flow of information for a perceptual task](images/confidence_information_flow.png)
 
-{cite}`mamassianConfidenceForcedChoiceOther2020`
+[[Mamassian, 2020]](../../references/README.md#mamassian-2020)
 
 ### Measures of interest
 
-Measures of metacognition in experimental tasks seek to estimate the statistical relationship between confidence judgments and objective performance {cite}`flemingMetacognitionConfidenceReview`.
+Measures of metacognition in experimental tasks seek to estimate the statistical relationship between confidence judgments and objective performance [[Fleming, 2024]](../../references/README.md#fleming-2024).
 
 #### Sensitivity
 
@@ -94,7 +94,7 @@ Confidence/metacognitive/type 2 sensitivity is **the capacity to correlate confi
 
 For example, being confident when taking correct decisions and less confident otherwise demonstrates a high degree of sensitivity.
 
-Sensitivity is often affected by task performance itself: an individual will appear to have greater sensitivity on an easy task compared to a hard task {cite}`flemingHowMeasureMetacognition2014`.
+Sensitivity is often affected by task performance itself: an individual will appear to have greater sensitivity on an easy task compared to a hard task [[Fleming and Lau, 2014]](../../references/README.md#fleming-and-lau-2014).
 
 #### Bias
 
@@ -106,7 +106,7 @@ Under- and over-confidence are examples of biases.
 
 > Real confidence distributions are unlikely to be Gaussian.
 
-{cite}`flemingHowMeasureMetacognition2014`
+[[Fleming and Lau, 2014]](../../references/README.md#fleming-and-lau-2014)
 
 #### Efficiency
 
@@ -122,7 +122,7 @@ It is measured relative to a particular task performance level.
 
 After a decision, the subject is asked to evaluate its correctness, using a dedicated scale.
 
-Simple and frequently used, this method has several drawbacks: intersubject variability regarding bias and scale usage, and possible confusions between type 1 and type 2 judgments {cite}`mamassianConfidenceForcedChoiceOther2020`.
+Simple and frequently used, this method has several drawbacks: intersubject variability regarding bias and scale usage, and possible confusions between type 1 and type 2 judgments [[]](../../references/README.md#confidence).
 
 #### Post-decision wagering
 
@@ -146,7 +146,7 @@ One challenge is to avoid confounding it with a three-alternative forced choice 
 
 After two decisions, the subject has to choose which one is more likely to be correct.
 
-One benefit of this paradigm is that it disregards confidence biases to focus on sensitivity {cite}`mamassianConfidenceForcedChoiceOther2020`.
+One benefit of this paradigm is that it disregards confidence biases to focus on sensitivity [[]](../../references/README.md#confidence).
 
 ## Computing confidence
 
@@ -326,4 +326,4 @@ Having an explicit representation of the confidence of a perceptual decision may
 
 Having a good confidence sensitivity will also give us the possibility to allocate appropriate resources to a task.
 
-Good confidence can also help us appreciate whether and how we can control the environment {cite}`mamassianConfidenceForcedChoiceOther2020`.
+Good confidence can also help us appreciate whether and how we can control the environment [[]](../../references/README.md#confidence).
