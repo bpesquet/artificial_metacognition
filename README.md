@@ -21,15 +21,6 @@ Thie repository contains resources related to my research in artificial metacogn
 - [Towards confident AI](publications/presentations/UBWorkshop_june2024.pdf) ([AI PhD students workshop @ Université de Bordeaux, 2024](https://sin.u-bordeaux.fr/actualites/journee-des-doctorants-en-intelligence-artificielle))
 - [Rendre l'IA confiante, pour mieux lui faire confiance](publications/presentations/PoS2024Pesquet.pdf) ([Pint of Science 2024](https://pintofscience.fr/))
 
-### References
-
-- [Confidence](references/confidence//)
-- [Decision-making](references/decision-making/)
-- [Metacognition](references/metacognition/)
-- [Neuroscience](references/neuroscience/)
-- [Reinforcement Learning](references/reinforcement-learning//)
-- [Statistics](references/statistics/)
-
 ## License
 
 [Creative Commons](LICENSE) for textual content and [MIT](CODE_LICENSE) for code.
