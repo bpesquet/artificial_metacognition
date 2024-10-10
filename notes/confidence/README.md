@@ -6,7 +6,7 @@
 
 Everyone knows intuitively what confidence is about, yet it is seldom defined explicitely.
 
-In the broadest sense, **confidence quantifies a degree of belief in something or someone** [[Meyniel et al., 2015]](../../references/confidence/Meyniel2015.md).
+In the broadest sense, **confidence quantifies a degree of belief in something or someone** [[Meyniel et al., 2015]](https://doi.org/10.1016/j.neuron.2015.09.039).
 
 It is fundamentally linked to its object: a thought, a choice, an external actor, etc.
 
@@ -14,7 +14,7 @@ It is fundamentally linked to its object: a thought, a choice, an external actor
 
 A belief is **a feeling of certainty about a proposition** (i.e. a statement or a decision). It is a subjective, conscious experience.
 
-Note: regarding perceptions, our belief usually matches our perceptual experience, but not always [[Mamassian, 2020]](../../references/confidence/Mamassian2020.md).
+Note: regarding perceptions, our belief usually matches our perceptual experience, but not always [[Mamassian, 2020]](https://journals.sagepub.com/doi/10.1177/0301006620928010).
 
 ![Belief-perception gap](images/belief_perception_gap.png)
 
@@ -22,15 +22,15 @@ Note: regarding perceptions, our belief usually matches our perceptual experienc
 
 Generally speaking, uncertainty (or incertitude) characterizes situations involving **imperfect, noisy or unknown information**.
 
-In decision-making, uncertainty refers to **the variability in the representation of information before a decision is taken** [[Mamassian, 2021]](../../references/confidence/Mamassian2020.md).
+In decision-making, uncertainty refers to **the variability in the representation of information before a decision is taken** [[Mamassian, 2021]](https://journals.sagepub.com/doi/10.1177/0301006620928010).
 
 To perform well, the brain needs to be effective at dealing with many uncertainties, some of them external (changes in world state or sensorimotor variability), others internal (cognitive variables, timing or abstract states). Uncertainty is inherent to all stages of neural computation.
 
 ### Confidence: updated definition
 
-In decision-making, confidence can be seen as **the subjective estimate of decision quality** [[Brus et al., 2021]](../../references/confidence/Brus2021.md).
+In decision-making, confidence can be seen as **the subjective estimate of decision quality** [[Brus et al., 2021]](https://www.nature.com/articles/s41467-021-27618-5).
 
-More formally, it can be defined as **the probability that a choice is correct given the evidence** [[Pouget et al., 2016]](../../references/confidence/Pouget2016.md).
+More formally, it can be defined as **the probability that a choice is correct given the evidence** [[Pouget et al., 2016]](https://www.nature.com/articles/nn.4240).
 
 Confidence is a form of certainty. A key difference is that contrary to confidence, (un)certainties are *decision independant*. **Confidence quantifies the degree of certainty associated to a decision**.
 
@@ -42,7 +42,7 @@ Trust is a social construct: **the belief that someone or something will behave 
 
 ### Error monitoring
 
-In decision-making, error monitoring (EM) is **the process by which one is able to detect his/her errors as soon as a response has been made** [[Yeung & Summerfield, 2012]](../../references/confidence/Yeung2012.md).
+In decision-making, error monitoring (EM) is **the process by which one is able to detect his/her errors as soon as a response has been made** [[Yeung & Summerfield, 2012]](https://royalsocietypublishing.org/doi/10.1098/rstb.2011.0416).
 
 EM allows adaptation of behavior both in the short and longer terms through gradual learning of actions' outcomes.
 
@@ -50,7 +50,7 @@ EM allows adaptation of behavior both in the short and longer terms through grad
 
 Confidence judgments and error monitoring are two related aspects of metacognition (sometimes called *higher order thinking*).
 
-First described in [[Flavell, 1979]](../../references/metacognition/Flavell1979.md), metacognition can be defined as **the ability to consider, understand and regulate one's cognitive processes**. It is a key skill to adapt to complex problems and changing environments.
+First described in [[Flavell, 1979]](https://www.semanticscholar.org/paper/Metacognition-and-Cognitive-Monitoring%3A-A-New-Area-Flavell/ee652f0f63ed5b0cfe0af4cb4ea76b2ecf790c8d), metacognition can be defined as **the ability to consider, understand and regulate one's cognitive processes**. It is a key skill to adapt to complex problems and changing environments.
 
 Metacognition is classicaly divided into two subprocesses: **monitoring** and **control**.
 
@@ -60,11 +60,11 @@ Metacognition is classicaly divided into two subprocesses: **monitoring** and **
 
 ![Metaperception](images/metaperception.png)
 
-[[Mamassian, 2020]](../../references/confidence/Mamassian2020.md)
+[[Mamassian, 2020]](https://journals.sagepub.com/doi/10.1177/0301006620928010)
 
 ### Cognitive control
 
-Cognitive control refers to **the intentional selection of thoughts, emotions, and behaviors based on current task demands and social context, and the concomitant suppression of inappropriate habitual actions** [[Miller and Cohen, 2001]](../../references/README.md#miller-and-cohen-2001).
+Cognitive control refers to **the intentional selection of thoughts, emotions, and behaviors based on current task demands and social context, and the concomitant suppression of inappropriate habitual actions** [[Miller and Cohen, 2001]](https://www.annualreviews.org/content/journals/10.1146/annurev.neuro.24.1.167).
 
 In simpler terms, cognitive control allows adapting our behaviour on-the-fly to improve performance.
 
@@ -82,11 +82,11 @@ Example of type 1 task: is the [Gabor patch](http://neuroanatody.com/2016/05/wha
 
 ![Flow of information for a perceptual task](images/confidence_information_flow.png)
 
-[[Mamassian, 2020]](../../references/confidence/Mamassian2020.md)
+[[Mamassian, 2020]](https://journals.sagepub.com/doi/10.1177/0301006620928010)
 
 ### Measures of interest
 
-Measures of metacognition in experimental tasks seek to estimate the statistical relationship between confidence judgments and objective performance [[Fleming, 2024]](../../references/confidence/Fleming2024.md).
+Measures of metacognition in experimental tasks seek to estimate the statistical relationship between confidence judgments and objective performance [[Fleming, 2024]](https://www.annualreviews.org/content/journals/10.1146/annurev-psych-022423-032425).
 
 #### Sensitivity
 
@@ -94,7 +94,7 @@ Confidence/metacognitive/type 2 sensitivity is **the capacity to correlate confi
 
 For example, being confident when taking correct decisions and less confident otherwise demonstrates a high degree of sensitivity.
 
-Sensitivity is often affected by task performance itself: an individual will appear to have greater sensitivity on an easy task compared to a hard task [[Fleming and Lau, 2014]](../../references/confidence/Fleming2014.md).
+Sensitivity is often affected by task performance itself: an individual will appear to have greater sensitivity on an easy task compared to a hard task [[Fleming and Lau, 2014]](https://www.frontiersin.org/journals/human-neuroscience/articles/10.3389/fnhum.2014.00443/full).
 
 #### Bias
 
@@ -106,7 +106,7 @@ Under- and over-confidence are examples of biases.
 
 > Real confidence distributions are unlikely to be Gaussian.
 
-[[Fleming and Lau, 2014]](../../references/confidence/Fleming2014.md)
+[[Fleming and Lau, 2014]](https://www.frontiersin.org/journals/human-neuroscience/articles/10.3389/fnhum.2014.00443/full)
 
 #### Efficiency
 
@@ -122,11 +122,11 @@ It is measured relative to a particular task performance level.
 
 After a decision, the subject is asked to evaluate its correctness, using a dedicated scale.
 
-Simple and frequently used, this method has several drawbacks: intersubject variability regarding bias and scale usage, and possible confusions between type 1 and type 2 judgments [[Mamassian, 2020]](../../references/confidence/Mamassian2020.md).
+Simple and frequently used, this method has several drawbacks: intersubject variability regarding bias and scale usage, and possible confusions between type 1 and type 2 judgments [[Mamassian, 2020]](https://journals.sagepub.com/doi/10.1177/0301006620928010).
 
 #### Post-decision wagering
 
-After a decision, subjects are asked to gamble on whether their response was correct. If the decision is correct, the wager amount is kept [[Fleming and Dolan, 2012]](../../references/confidence/Fleming2012.md).
+After a decision, subjects are asked to gamble on whether their response was correct. If the decision is correct, the wager amount is kept [[Fleming and Dolan, 2012]](https://royalsocietypublishing.org/doi/10.1098/rstb.2011.0417).
 
 The amount of the bet is assumed to reflect a subject’s confidence in his or her decision.
 
@@ -138,7 +138,7 @@ In most but not all the trials, the subject has the option to decline the decisi
 
 This paradigm is well suited to experiments with animals, which cannot explicitely report their confidence.
 
-One challenge is to avoid confounding it with a three-alternative forced choice [[Kepecs et al., 2912]](../../references/confidence/Kepecs2012.md).
+One challenge is to avoid confounding it with a three-alternative forced choice [[Kepecs et al., 2912]](https://royalsocietypublishing.org/doi/10.1098/rstb.2012.0037).
 
 #### Confidence forced choice
 
@@ -146,7 +146,7 @@ One challenge is to avoid confounding it with a three-alternative forced choice 
 
 After two decisions, the subject has to choose which one is more likely to be correct.
 
-One benefit of this paradigm is that it disregards confidence biases to focus on sensitivity [[]](../../references/confidence/Mamassian2020.md).
+One benefit of this paradigm is that it disregards confidence biases to focus on sensitivity [[Mamassian, 2020]](https://journals.sagepub.com/doi/10.1177/0301006620928010).
 
 ## Computing confidence
 
@@ -167,7 +167,7 @@ The simplest measure of confidence sensitivity is the [$\phi$ coefficient](https
 
 $$\phi = \frac{(TN_2 *TP_2 - FN_2*FP_2)}{\sqrt{(TP_2+FP_2)(TP_2+FN_2)(TN_2+FP_2)(TN_2+FN_2)}}$$
 
-> This metric is equivalent to the *Matthews Correlation Coefficient* (MCC) used in Machine Learning [[Chicco and Jurman, 2023]](../../references/statistics/Chicco2023.md).
+> This metric is equivalent to the *Matthews Correlation Coefficient* (MCC) used in Machine Learning [[Chicco and Jurman, 2023]](https://biodatamining.biomedcentral.com/articles/10.1186/s13040-023-00322-4).
 
 Another possible way of computing correlation is the *Goodman-Kruskal gamma coefficient* $G$.
 
@@ -214,19 +214,19 @@ More precisely, SDT assumes that the distributions of DV values in the presence 
 
 ![Standard model of SDT](images/sdt_standard.png)
 
-[[Michel, 2023]](../../references/confidence/Michel2023.md)
+[[Michel, 2023]](https://wires.onlinelibrary.wiley.com/doi/10.1002/wcs.1628)
 
 ##### Example
 
 ![Example of criterion choice](images/sdt_example.png)
 
-With this criterion choice, the TPR (shaded region of the signal distribution) is 0.9332 and the FPR (shaded region of the noise distribution) is 0.3085 [[Stanislaw and Todorov, 1999]](../../references/decision-making//Stanislaw1999.md).
+With this criterion choice, the TPR (shaded region of the signal distribution) is 0.9332 and the FPR (shaded region of the noise distribution) is 0.3085 [[Stanislaw and Todorov, 1999]](https://link.springer.com/article/10.3758/BF03207704).
 
 #### Type 1 sensitivity index
 
 Type 1 sensitivity/discriminability index $d'_1$ is a measure of discrimination performance in the task. It quantifies the sensibility of the decision maker to the presence of the stimulus/signal.
 
-$d'_1$ quantifies the distance between the means of the signal and noise distributions in standard deviation units. It can be obtained using the inverse cumulative distribution function, which computes the *standard score* a.k.a. *z-score* associated to a probability [[Stanislaw and Todorov, 1999]](../../references/decision-making/Stanislaw1999.md).
+$d'_1$ quantifies the distance between the means of the signal and noise distributions in standard deviation units. It can be obtained using the inverse cumulative distribution function, which computes the *standard score* a.k.a. *z-score* associated to a probability [[Stanislaw and Todorov, 1999]](https://link.springer.com/article/10.3758/BF03207704).
 
 $$d'_1 = z(\text{TPR}_1) - z(\text{FPR}_1)$$
 
@@ -236,13 +236,13 @@ The ROC curve ("Receiver Operating Characteristic") plots TPR vs. FPR for each p
 
 AUC, or more precisely AUROC ("Area Under the ROC Curve"), provides an aggregate measure of performance across all possible decision criterions. It is a way to assess sensitivity independently of bias.
 
-This non-parametric approach is free from the equal-variance Gaussian assumption needed for $d'$ to be bias-free [[Fleming and Lau, 2014]](../../references/confidence/Fleming2014.md).
+This non-parametric approach is free from the equal-variance Gaussian assumption needed for $d'$ to be bias-free [[Fleming and Lau, 2014]](https://www.frontiersin.org/journals/human-neuroscience/articles/10.3389/fnhum.2014.00443/full).
 
 ##### Examples
 
 ![Examples of ROC curves](images/sdt_roc_examples.png)
 
-[[Michel, 2023]](../../references/confidence/Michel2023.md)
+[[Michel, 2023]](https://wires.onlinelibrary.wiley.com/doi/10.1002/wcs.1628)
 
 ##### Impact of criterion choice
 
@@ -258,7 +258,7 @@ Applying SDT to the type 2 confidence table defined above, we can compute type 2
 
 $$d'_2 = z(\text{TPR}_2) - z(\text{FPR}_2)$$
 
-However, the equal-variance Gaussian assumption for distributions is problematic in this case [[Galvin et al., 2003]](../../references/decision-making/Galvin2003.md).
+However, the equal-variance Gaussian assumption for distributions is problematic in this case [[Galvin et al., 2003]](https://link.springer.com/article/10.3758/BF03196546).
 
 #### AUROC2
 
@@ -266,13 +266,13 @@ With multiple confidence ratings, it is possible to construct a type 2 ROC curve
 
 ![Example of ROC curve for confidence](images/auroc2.png)
 
-[[Fleming and Lau, 2014]](../../references/confidence/Fleming2014.md)
+[[Fleming and Lau, 2014]](https://www.frontiersin.org/journals/human-neuroscience/articles/10.3389/fnhum.2014.00443/full)
 
 #### Meta-d'
 
 This measure exploits the fact that given Gaussian variance assumptions at the type 1 level, the shapes of the type 2 distributions are known even if they are not themselves Gaussian. More precisely, the type 2 ROC curve is entirely determined by type 1 sensitivity if the subject is metacognitively ideal (perfect in placing their confidence ratings).
 
-Using this assumption and given the subject’s type 2 performance data, we can thus obtain the underlying type 1 sensitivity. This measure is called meta-$d'$. It estimates the level of type 1 performance ($d′_1$) that would have given rise to the observed type 2 data [[Fleming and Lau, 2014]](../../references/confidence/Fleming2014.md) ([more details](https://www.columbia.edu/~bsm2105/type2sdt/)).
+Using this assumption and given the subject’s type 2 performance data, we can thus obtain the underlying type 1 sensitivity. This measure is called meta-$d'$. It estimates the level of type 1 performance ($d′_1$) that would have given rise to the observed type 2 data [[Fleming and Lau, 2014]](https://www.frontiersin.org/journals/human-neuroscience/articles/10.3389/fnhum.2014.00443/full) ([more details](https://www.columbia.edu/~bsm2105/type2sdt/)).
 
 #### M-ratio
 
@@ -280,7 +280,7 @@ Because meta-$d′$ is in the same units as (type 1) $d′$, the two can be dire
 
 We can define confidence efficiency as the value of meta-$d′$ relative to $d′$, or meta-$d'/d'$. This measure is called the M-ratio.
 
-An alternative measure is meta-$d'-d'$, favored when $d'$ takes small values [[Fleming and Lau, 2014]](../../references/confidence/Fleming2014.md).
+An alternative measure is meta-$d'-d'$, favored when $d'$ takes small values [[Fleming and Lau, 2014]](https://www.frontiersin.org/journals/human-neuroscience/articles/10.3389/fnhum.2014.00443/full).
 
 ### Evidence Accumulation Models
 
@@ -290,7 +290,7 @@ The number of accumulators may vary from only one (à la Drift Diffusion Model) 
 
 #### Balance of Evidence
 
-In a multi-accumulator model, confidence can be seen as the distance between them at the time of decision (i.e. threshold reached). This measure is called the *Balance of Evidence* (BoE) [[Mamassian, 2016]](../../references/confidence/Mamassian2016.md).
+In a multi-accumulator model, confidence can be seen as the distance between them at the time of decision (i.e. threshold reached). This measure is called the *Balance of Evidence* (BoE) [[Mamassian, 2016]](https://www.annualreviews.org/content/journals/10.1146/annurev-vision-111815-114630).
 
 ![Balance of Evidence example](images/BoE.png)
 
@@ -304,19 +304,19 @@ These approaches of confidence formation may help explain some experimentaly rep
 
 ![2DSD model](images/2DSD.png)
 
-[[Pleskac and Busemeyer, 2010]](../../references/decision-making/Pleskac2010.md)
+[[Pleskac and Busemeyer, 2010]](https://psycnet.apa.org/doiLanding?doi=10.1037%2Fa0019737)
 
 ## What's next?
 
 ### Neural basis of confidence
 
-Numerous studies demonstrate that the brain tracks uncertainty about a wide range of quantities and that such uncertainty informs metacognitive processes, such as confidence judgments [[Fleming, 2024]](../../references/confidence/Fleming2024.md).
+Numerous studies demonstrate that the brain tracks uncertainty about a wide range of quantities and that such uncertainty informs metacognitive processes, such as confidence judgments [[Fleming, 2024]](https://www.annualreviews.org/content/journals/10.1146/annurev-psych-022423-032425).
 
 Activity in the parietal cortex seems related to evidence accumulation during decision-making.
 
 Convergent findings emphasize the importance of the prefrontal cortex, more precisely the ventromedial prefrontal cortex (vmPFC), in the formation of confidence.
 
-Many results suggest that there are separate and perhaps multiple brain areas involved in confidence monitoring and reporting [[Grimaldi et al., 2015]](../../references/confidence/Grimaldi2015.md).
+Many results suggest that there are separate and perhaps multiple brain areas involved in confidence monitoring and reporting [[Grimaldi et al., 2015]](https://www.sciencedirect.com/science/article/pii/S0149763415001025?via%3Dihub).
 
 ### Usages of confidence
 
@@ -326,4 +326,4 @@ Having an explicit representation of the confidence of a perceptual decision may
 
 Having a good confidence sensitivity will also give us the possibility to allocate appropriate resources to a task.
 
-Good confidence can also help us appreciate whether and how we can control the environment [[]](../../references/README.md#confidence).
+Good confidence can also help us appreciate whether and how we can control the environment.
