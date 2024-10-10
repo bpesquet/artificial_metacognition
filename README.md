@@ -27,6 +27,7 @@ Thie repository contains resources related to my research in artificial metacogn
 - [Decision-making](references/decision-making/)
 - [Metacognition](references/metacognition/)
 - [Neuroscience](references/neuroscience/)
+- [Reinforcement Learning](references/reinforcement-learning//)
 - [Statistics](references/statistics/)
 
 ## License
