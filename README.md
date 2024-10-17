@@ -6,8 +6,9 @@ Thie repository contains resources related to my research in artificial metacogn
 
 ### Notes
 
-- [Introduction to the theory of decision-making](notes/decision_making/README.md)
-- [Confidence in decision-making](notes/confidence/README.md)
+- [Confidence as hyperparemeter tuning for sequential decision-making](notes/team_meeting_2024/README.md) (Oct. 2024)
+- [Confidence in decision-making](notes/confidence/README.md) (June 2024)
+- [Introduction to the theory of decision-making](notes/decision_making/README.md) (Jan. 2024)
 
 ### Publications
 
