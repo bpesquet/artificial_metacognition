@@ -1,6 +1,6 @@
 # Artificial Metacognition
 
-Thie repository contains resources related to my research in artificial metacognition.
+Thie repository contains resources related to my research on artificial metacognition.
 
 ## Table of Contents
 
