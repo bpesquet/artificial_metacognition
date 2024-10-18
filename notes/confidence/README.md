@@ -1,4 +1,17 @@
+---
+marp: true
+math: true  # Use default Marp engin for math rendering
+---
+
+<!-- Apply header and footer to first slide only -->
+<!-- _header: "[![INRIA logo](../inria_logo.jpg)](https://www.inria.fr)" -->
+<!-- _footer: "[Baptiste Pesquet](https://www.bpesquet.fr)" -->
+<!-- headingDivider: 5 -->
+
 # Confidence in decision-making
+
+<!-- Show pagination, starting with second slide -->
+<!-- paginate: true -->
 
 ## Terminology
 
@@ -51,6 +64,8 @@ EM allows adaptation of behavior both in the short and longer terms through grad
 Confidence judgments and error monitoring are two related aspects of metacognition (sometimes called *higher order thinking*).
 
 First described in [[Flavell, 1979]](https://www.semanticscholar.org/paper/Metacognition-and-Cognitive-Monitoring%3A-A-New-Area-Flavell/ee652f0f63ed5b0cfe0af4cb4ea76b2ecf790c8d), metacognition can be defined as **the ability to consider, understand and regulate one's cognitive processes**. It is a key skill to adapt to complex problems and changing environments.
+
+---
 
 Metacognition is classicaly divided into two subprocesses: **monitoring** and **control**.
 
@@ -211,6 +226,8 @@ SDT represents a decision as a comparison between a *decision variable* (DV), de
 Since evidence is affected by perturbations such as neural noise and fluctuation in attention, the DV can be modelized as a random variable described by a probability distribution.
 
 More precisely, SDT assumes that the distributions of DV values in the presence or absence of stimulus/signal are Gaussian with equal variance.
+
+---
 
 ![Standard model of SDT](images/sdt_standard.png)
 

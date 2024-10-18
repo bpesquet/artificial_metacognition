@@ -1,4 +1,17 @@
+---
+marp: true
+math: true  # Use default Marp engin for math rendering
+---
+
+<!-- Apply header and footer to first slide only -->
+<!-- _header: "[![INRIA logo](../inria_logo.jpg)](https://www.inria.fr)" -->
+<!-- _footer: "[Baptiste Pesquet](https://www.bpesquet.fr)" -->
+<!-- headingDivider: 5 -->
+
 # Introduction to the theory of decision-making
+
+<!-- Show pagination, starting with second slide -->
+<!-- paginate: true -->
 
 ## Terminology
 
@@ -228,6 +241,8 @@ This model [Usher and McClelland, 2001] is based on gradual and stochastic accum
 
 Cortical models ([Shadlen and Newsome, 2001], [Usher and McClelland, 2001], [[Wang, 2002]](https://www.sciencedirect.com/science/article/pii/S0896627302010929?via%3Dihub)) can be reduced to the diffusion model for parameter values that optimize their performance [[Bogacz, 2007]](https://www.sciencedirect.com/science/article/pii/S1364661307000290?via%3Dihub).
 
+---
+
 ![DDM & cortical models](images/ddm_cortical_models.png)
 
 ### Multiple-choice decisions
@@ -236,6 +251,8 @@ Cortical models ([Shadlen and Newsome, 2001], [Usher and McClelland, 2001], [[Wa
 
 - Extension of SPRT to ternary choices in which the rate of integration depends on the fixation of the visual stimulus, as measured through eye-tracking [[Krajbich and Rangel, 2011]](https://www.pnas.org/doi/full/10.1073/pnas.1101328108).
 - A DV is computed for each item based on the evidence accumulated for that item compared with the highest accumulated evidence for the other items (*best-vs-next* approach).
+
+---
 
 ![MSPRT](images/msprt.png)
 
